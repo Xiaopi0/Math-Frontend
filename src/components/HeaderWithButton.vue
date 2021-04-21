@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="Header">
     <h1>{{ title }}</h1>
     <Button :text="bText" :color="bColor" :onclickEvent="onClickEvent" />
   </header>
@@ -34,7 +34,7 @@ export default {
 </script>
 
 <style scoped>
-header {
+header.Header {
   display: flex;
   justify-content: space-between;
   align-items: center;
