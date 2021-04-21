@@ -2,18 +2,21 @@
   <div class="container" id="app">
     <HeaderWithButton title="test" bText="Test2" bColor="magenta" onClickEvent="test" />
     <Section Title="Test Section" Text="Test Section Text" />
+    <SectionWithOCButton Title="Test SectionWithO-CButton" Text="Test SectionWithO-CButton Text" BText="Open/Close Button" BColor="blue" OnClickEvent="OpenClose1" />
   </div>
 </template>
 
 <script>
 import HeaderWithButton from './components/HeaderWithButton'
 import Section from './components/Section'
+import SectionWithOCButton from './components/SectionWithO-CButton'
 
 export default {
   name: 'App',
   components: {
     HeaderWithButton,
-    Section
+    Section,
+    SectionWithOCButton
   }
 }
 </script>
@@ -29,8 +32,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 .container {
-  max-width: 500px;
+  max-width: 5000px;
   margin: 30px auto;
+  margin-left: 30px;
+  margin-right: 30px;
   overflow: auto;
   min-height: 300px;
   border: 1px solid steelblue;
