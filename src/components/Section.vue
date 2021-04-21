@@ -1,6 +1,9 @@
 <template>
-  <div>
-    
+  <div class="Section">
+    <Header :title="Title" />
+    <p>
+      {{ Text }}
+    </p>
   </div>
 </template>
 
@@ -26,10 +29,11 @@ export default {
 </script>
 
 <style scoped>
-div {
+div.Section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  flex-direction: column;
 }
 </style>
