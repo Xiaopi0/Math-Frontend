@@ -11,7 +11,7 @@
 import HeaderWithButton from './HeaderWithButton'
 
 export default {
-  name: 'Section',
+  name: 'SectionWithO-CButton',
   props: {
     Title: {
       type: String,
