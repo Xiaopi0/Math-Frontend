@@ -1,23 +1,32 @@
 <template>
-  <header>
-    <h1>{{ title }}</h1>
-  </header>
+  <div>
+    
+  </div>
 </template>
 
 <script>
+import Header from './Header'
+
 export default {
-  name: 'Header',
+  name: 'Section',
   props: {
-    title: {
+    Title: {
+      type: String,
+      required: true
+    },
+    Text: {
       type: String,
       required: true
     }
+  },
+  components: {
+    Header
   }
 }
 </script>
 
 <style scoped>
-header {
+div {
   display: flex;
   justify-content: space-between;
   align-items: center;

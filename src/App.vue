@@ -1,16 +1,17 @@
 <template>
   <div class="container" id="app">
     <img alt="Vue logo" src="https://vuejs.org/images/logo.png">
+    <HeaderWithButton title="test" bText="Test2" bColor="magenta" onClickEvent="test" />
   </div>
 </template>
 
 <script>
-import Header from './components/Header'
+import HeaderWithButton from './components/HeaderWithButton'
 
 export default {
   name: 'App',
   components: {
-    Header
+    HeaderWithButton
   }
 }
 </script>
