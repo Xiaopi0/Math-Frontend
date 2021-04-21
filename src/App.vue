@@ -1,8 +1,9 @@
 <template>
   <div class="container" id="app">
-    <HeaderWithButton title="test" bText="Test2" bColor="magenta" onClickEvent="test" />
+    <!--<HeaderWithButton title="test" bText="Test2" bColor="magenta" onClickEvent="test" />
     <Section Title="Test Section" Text="Test Section Text" />
-    <SectionWithOCButton Title="Test SectionWithO-CButton" Text="Test SectionWithO-CButton Text" BText="Open/Close Button" BColor="blue" OnClickEvent="OpenClose1" />
+    <SectionWithOCButton Title="Test SectionWithO-CButton" Text="Test SectionWithO-CButton Text" BText="Open/Close Button" BColor="blue" OnClickEvent="OpenClose1" />-->
+    <Section Title="Math Frontend" Text="A Webpage for my solutions to Math Tasks" />
   </div>
 </template>
 
@@ -30,6 +31,7 @@ export default {
 }
 body {
   font-family: 'Poppins', sans-serif;
+  background: #000080;
 }
 .container {
   max-width: 5000px;
