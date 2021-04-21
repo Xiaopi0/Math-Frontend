@@ -1,6 +1,5 @@
 <template>
   <div class="container" id="app">
-    <img alt="Vue logo" src="https://vuejs.org/images/logo.png">
     <HeaderWithButton title="test" bText="Test2" bColor="magenta" onClickEvent="test" />
     <Section Title="Test Section" Text="Test Section Text" />
   </div>
