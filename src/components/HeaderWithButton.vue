@@ -38,6 +38,7 @@ header.Header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
   margin-bottom: 20px;
 }
 </style>
