@@ -1,7 +1,7 @@
 <template>
   <header class="Header">
     <h1>{{ title }}</h1>
-    <Button :text="bText" :color="bColor" :onclickEvent="onClickEvent" />
+    <Button @OpenClose="$emit('OpenClose')" :text="bText" :color="bColor" :onclickEvent="onClickEvent" />
   </header>
 </template>
 

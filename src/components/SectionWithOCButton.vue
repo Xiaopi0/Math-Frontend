@@ -1,7 +1,7 @@
 <template>
   <div class="Section">
-    <HeaderWithButton :title="Title" :bText="BText" :bColor="BColor" :onClickEvent="OnClickEvent" />
-    <p>
+    <HeaderWithButton @OpenClose="OC = !OC" :title="Title" :bText="BText" :bColor="BColor" onClickEvent="OpenClose" />
+    <p v-if="OC">
       {{ Text }}
     </p>
   </div>
@@ -11,7 +11,7 @@
 import HeaderWithButton from './HeaderWithButton'
 
 export default {
-  name: 'SectionWithO-CButton',
+  name: 'SectionWithOCButton',
   props: {
     Title: {
       type: String,
@@ -28,14 +28,15 @@ export default {
     BColor: {
       type: String,
       required: true
-    },
-    OnClickEvent: {
-      type: String,
-      required: true
     }
   },
   components: {
     HeaderWithButton
+  },
+  data() {
+    return {
+      OC = true
+    }
   }
 }
 </script>
