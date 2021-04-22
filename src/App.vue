@@ -1,22 +1,19 @@
 <template>
   <div class="container" id="app">
     <Section Title="Math Frontend" Text="A Webpage for my solutions to Math Tasks" />
-    <SectionWithOCButton Title="Test" Text="A Test 1234567890" BText="Open/Close" BColor="Green" />
   </div>
 </template>
 
 <script>
 import HeaderWithButton from './components/HeaderWithButton'
 import Section from './components/Section'
-import SectionWithOCButton from './components/SectionWithOCButton'
 
 export default {
   name: 'App',
   components: {
     HeaderWithButton,
     Section,
-    SectionWithOCButton
-  }
+  },
 }
 </script>
 
