@@ -5,13 +5,11 @@
 </template>
 
 <script>
-import HeaderWithButton from './components/HeaderWithButton'
 import Section from './components/Section'
 
 export default {
   name: 'App',
   components: {
-    HeaderWithButton,
     Section,
   },
 }
