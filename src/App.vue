@@ -1,7 +1,7 @@
 <template>
   <div class="container" id="app">
     <Section Title="Math Frontend" Text="A Webpage for my solutions to Math Tasks" />
-    <input v-model="message" placeholder="Input opgname. format: {type fx. FP9}_{dd}_{mm}_{yyyy}.json">
+    <input class="theonlyfuckinginputonthepage" v-model="message" placeholder="Input opgname. format: {type fx. FP9}_{dd}_{mm}_{yyyy}.json">
   </div>
 </template>
 
@@ -26,6 +26,9 @@ export default {
 body {
   font-family: 'Poppins', sans-serif;
   background: #000080;
+}
+.theonlyfuckinginputonthepage {
+  width: 5000;
 }
 .container {
   max-width: 5000px;
