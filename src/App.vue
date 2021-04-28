@@ -7,7 +7,7 @@
       <input type="submit" value="submit" />
     </form>
     <div class="opgave" id="opgave">
-      {{ opgaveTekst }}
+      {{opgaveTekst}}
     </div>
   </div>
 </template>
