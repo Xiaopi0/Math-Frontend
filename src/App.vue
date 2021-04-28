@@ -2,7 +2,9 @@
   <div class="container" id="app">
     <Section Title="Math Frontend" Text="A Webpage for my solutions to Math Tasks" />
     <p>Input opgname. format: {type fx. FP9}_{dd}_{mm}_{yyyy}.json</p>
-    <input class="theonlyfuckinginputonthepage" v-model="message">
+    <form v-on:submit="onSubmit(message)">
+      <input class="theonlyfuckinginputonthepage" v-model="message">
+    </form>
   </div>
 </template>
 
@@ -13,6 +15,11 @@ export default {
   name: 'App',
   components: {
     Section,
+  },
+  methods: {
+    onSubmit(message) {
+      
+    }
   }
 }
 </script>
