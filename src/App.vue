@@ -19,7 +19,7 @@ export default {
   },
   methods: {
     onSubmit(message) {
-      console.log('SUBMIT')
+      console.log('SUBMIT ' + message)
     }
   }
 }
