@@ -6,6 +6,9 @@
       <input class="theonlyfuckinginputonthepage" v-model="message" /><br />
       <input type="submit" value="submit" />
     </form>
+    <div class="opgave" id="opgave" v-show="showopg != 0">
+      <p>test</p>
+    </div>
   </div>
 </template>
 
@@ -20,6 +23,14 @@ export default {
   methods: {
     onSubmit(message) {
       console.log('SUBMIT ' + message)
+    }
+  },
+  data () {
+    return {
+      showopg: {
+        type: int,
+        value: 0
+      }
     }
   }
 }
@@ -38,6 +49,9 @@ body {
 }
 .theonlyfuckinginputonthepage {
   width: 5000;
+}
+#opgave {
+
 }
 .container {
   max-width: 5000px;
