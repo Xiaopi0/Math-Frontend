@@ -3,7 +3,7 @@
     <Section Title="Math Frontend" Text="A Webpage for my solutions to Math Tasks" />
     <p>Input opgname. format: {type fx. FP9}_{dd}_{mm}_{yyyy}.json</p>
     <form v-on:submit="onSubmit(message)">
-      <input class="theonlyfuckinginputonthepage" v-model="message" />
+      <input class="theonlyfuckinginputonthepage" v-model="message" /><br />
       <input type="submit" value="submit" />
     </form>
   </div>
