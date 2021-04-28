@@ -6,8 +6,8 @@
       <input class="theonlyfuckinginputonthepage" v-model="message" /><br />
       <input type="submit" value="submit" />
     </form>
-    <div class="opgave" id="opgave" v-show="showopg != "0">
-      <p>test</p>
+    <div class="opgave" id="opgave">
+      {{ opgaveTekst }}
     </div>
   </div>
 </template>
@@ -27,9 +27,8 @@ export default {
   },
   data () {
     return {
-      showopg: {
-        type: string,
-        value: "0"
+      opgaveTekst: {
+        type: String
       }
     }
   }
