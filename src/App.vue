@@ -1,7 +1,7 @@
 <template>
   <div class="container" id="app">
     <Section Title="Math Frontend" Text="A Webpage for my solutions to Math Tasks" />
-    <input v-model="message" placeholder="Input opgname. format: ">
+    <input v-model="message" placeholder="Input opgname. format: {type fx. FP9}_{dd}_{mm}_{yyyy}.json">
   </div>
 </template>
 
