@@ -7,7 +7,26 @@
 import Section from './components/Section'
 
 export default {
-  name: 'App'
+  name: 'App',
+  methods: {
+    getOpg() {
+      const axios = require('axios');
+
+      // Make a request for a user with a given ID
+      axios.get('https://3003-turquoise-mammal-mphszaam.ws-eu04.gitpod.io/opg/FP9_03_12_2019.json')
+        .then(function (response) {
+          // handle success
+          console.log(response);
+        })
+        .catch(function (error) {
+          // handle error
+          console.log(error);
+        })
+        .then(function () {
+          // always executed
+        });
+    }
+  }
 }
 </script>
 
