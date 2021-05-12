@@ -7,22 +7,7 @@
 import Section from './components/Section'
 
 export default {
-  name: 'App',
-  components: {
-    Section,
-  },
-  methods: {
-    onSubmit(message) {
-      console.log('SUBMIT ' + message)
-    }
-  },
-  data () {
-    return {
-      opgaveTekst: {
-        type: String
-      }
-    }
-  }
+  name: 'App'
 }
 </script>
 
