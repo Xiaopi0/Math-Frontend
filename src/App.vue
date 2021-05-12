@@ -22,12 +22,6 @@ body {
   font-family: 'Poppins', sans-serif;
   background: #000080;
 }
-.theonlyfuckinginputonthepage {
-  width: 5000;
-}
-#opgave {
-
-}
 .container {
   max-width: 5000px;
   margin: 30px auto;
