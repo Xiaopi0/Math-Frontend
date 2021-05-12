@@ -1,6 +1,6 @@
 <template>
   <div class="container" id="app">
-    <button :click="getOpg">Click</button>
+    <button :onClick="getOpg">Click</button>
   </div>
 </template>
 
