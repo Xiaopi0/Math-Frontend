@@ -1,14 +1,6 @@
 <template>
   <div class="container" id="app">
     <Section Title="Math Frontend" Text="A Webpage for my solutions to Math Tasks" />
-    <form id="theform" v-on:submit="onSubmit(message)">
-      <p>Input opgname. format: {type fx. FP9}_{dd}_{mm}_{yyyy}.json</p>
-      <input class="theonlyfuckinginputonthepage" v-model="message" /><br />
-      <input type="submit" value="submit" />
-    </form>
-    <div class="opgave" id="opgave">
-      {{opgaveTekst}}
-    </div>
   </div>
 </template>
 
