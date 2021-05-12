@@ -1,6 +1,5 @@
 <template>
   <div class="container" id="app">
-    <Section Title="Math Frontend" Text="A Webpage for my solutions to Math Tasks" />
   </div>
 </template>
 
