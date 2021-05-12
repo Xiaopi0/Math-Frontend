@@ -8,8 +8,9 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue": "^3.0.0",
-    "http": "^0.0.1-security"
+    "axios": "^0.21.1",
+    "http": "^0.0.1-security",
+    "vue": "^3.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.4.0",
